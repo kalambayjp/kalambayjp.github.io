@@ -1,6 +1,6 @@
 .nav-bar {
   background: #181818;
-  width: 150px;
+  width: 5%;
   height: 100%;
   position: absolute;
   top: 0;
@@ -72,7 +72,7 @@
     }
     a.projects-link {
       &:after {
-        content: "PROJECTS";
+        content: "Projects";
       }
     }
     a.contact-link {
