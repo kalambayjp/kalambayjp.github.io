@@ -26,10 +26,10 @@ const CubeAnimation = () => {
           <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
         </div>
         <div className="face face5">
-          <FontAwesomeIcon icon={faGitAlt} color="EC4D28" />
+          <FontAwesomeIcon icon={faGitAlt} color="#f34f29" />
         </div>
         <div className="face face6">
-          <FontAwesomeIcon icon={faNode} />
+          <FontAwesomeIcon icon={faNode} color="#68a063" />
         </div>
       </div>
     </div>

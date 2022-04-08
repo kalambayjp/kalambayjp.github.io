@@ -4,8 +4,6 @@ import "./index.scss";
 
 const Contact = () => {
   const refForm = useRef();
-  // console.log(process.env.REACT_APP_TOKEN);
-  console.log(process.env.REACT_APP_SERVICE_ID);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -18,12 +16,12 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          // alert("Message successfully sent!");
+          alert("Message successfully sent!");
           console.log(result.text);
-          // window.location.reload(false);
+          window.location.reload(false);
         },
         (error) => {
-          // alert("Failed to send message, please try again");
+          alert("Failed to send message, please try again");
           console.log(error.text);
         }
       );

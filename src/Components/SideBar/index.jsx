@@ -7,14 +7,14 @@ import {
   faCode,
 } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import initials2 from "../../assets/images/initials2.png";
 import "./index.scss";
 
 const Sidebar = () => {
   return (
     <div className="nav-bar">
-      <Link className="Logo" to="/">
-        <h3>Jp</h3>
-        <h3>Kalambay</h3>
+      <Link className="logo" to="/">
+        <img src={initials2} alt="logo" />
       </Link>
       <nav>
         <NavLink exact="true" activeclassname="active" to="/">

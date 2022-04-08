@@ -1,5 +1,5 @@
 .nav-bar {
-  background: #181818;
+  background: #0e0e0e;
   width: 5%;
   height: 100%;
   position: absolute;
@@ -10,6 +10,13 @@
   .logo {
     display: block;
     padding: 8px 0px;
+
+    img {
+      display: block;
+      margin: 8px auto;
+      width: 100px;
+      height: auto;
+    }
   }
 
   nav {
@@ -101,7 +108,7 @@
       a {
         padding: 7px 0px;
         display: block;
-        font-size: 15px;
+        font-size: 30px;
         line-height: 16px;
 
         &:hover svg {

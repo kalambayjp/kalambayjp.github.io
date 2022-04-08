@@ -6,6 +6,9 @@
   width: 65%;
   height: 100%;
   position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .top-tags {
@@ -18,7 +21,7 @@
   opacity: 0.6;
   position: absolute;
   bottom: 0;
-  left: 200px;
+  left: 10%;
   font-size: 18px;
   font-family: "La Belle Aurore";
 }
@@ -32,28 +35,23 @@
   will-change: contents;
   height: 90%;
   min-height: 566px;
-  position: absolute;
   opacity: 0;
-  top: 5%;
-  margin: 0 auto;
-  z-index: 1;
-  transform-style: preserve-3d;
+
   animation: fadeIn 1s forwards;
   animation-delay: 1s;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 15%;
 }
 
 .about-page,
 .contact-page,
-.projects-page {
+.projects-page,
+.home-page {
   .text-zone {
-    position: absolute;
-    left: 10%;
-    top: 40%;
-    transform: translateY(-50);
-    width: 35%;
-    vertical-align: middle;
-    display: table-cell;
-    max-height: 90%;
+    width: 85%;
 
     h1 {
       font-size: 52px;
@@ -63,7 +61,6 @@
       margin-top: 0;
       position: relative;
       margin-bottom: 40px;
-      // left: 10px;
 
       &::before {
         content: "<h1>";
@@ -84,18 +81,47 @@
         position: absolute;
         margin-top: 80px;
         left: -15px;
-        // margin-left: 20;
-        // animation: fadeIn 1s 1.7s backwards;
         opacity: 0.6;
       }
     }
 
+    h2 {
+      color: #8d8d8d;
+      margin-top: 20px;
+      font-weight: 400;
+      font-size: 15px;
+      font-family: sans-serif;
+      letter-spacing: 3px;
+      animation: fadeIn 1s 1.8s backwards;
+    }
+
+    .flat-button {
+      color: #ffd700;
+      font-size: 13px;
+      font-weight: 400;
+      letter-spacing: 4px;
+      font-family: sans-serif;
+      text-decoration: none;
+      padding: 10px 18px;
+      border: 1px solid #ffd700;
+      margin-top: 25px;
+      float: left;
+      animation: fadeIn 1s 1.8s backwards;
+      white-space: nowrap;
+
+      &:hover {
+        background-color: #ffd700;
+        color: #333;
+      }
+    }
+
     p {
-      font-style: 13px;
+      font-size: 18px;
       color: #fff;
       font-family: sans-serif;
       font-weight: 300;
-      min-width: fit-content;
+      width: 80%;
+      letter-spacing: 2px;
     }
   }
 }
