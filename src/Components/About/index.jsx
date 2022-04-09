@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const About = () => {
   return (
     <div className="container about-page">
@@ -13,7 +14,8 @@ const About = () => {
           small local companies and as a part-time mentor, helping coding
           bootcamp students at Lighthouse Labs. I am also on the look out for
           full-time opportunities. Prior to this I developed several apps, some
-          of which I have highlighted in the projects page.
+          of which I have highlighted in the projects page which you can view{" "}
+          <Link to="/projects">here</Link>
         </p>
 
         <p>

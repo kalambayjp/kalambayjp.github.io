@@ -33,8 +33,15 @@ const Contact = () => {
         <div className="text-zone">
           <h1>Contact Me</h1>
           <p>
-            I invite you to contact me through LinkedIn via the link in the side
-            bar, or by email using the form below.
+            You can reach me through{" "}
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.linkedin.com/in/jp-kalambay-6294171b7/"
+            >
+              LinkedIn
+            </a>
+            or by email using the form below.
           </p>
           <div className="contact-form">
             <form ref={refForm} onSubmit={sendEmail}>
