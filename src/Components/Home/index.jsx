@@ -23,12 +23,11 @@ const Home = () => {
             </p>
 
             <p>
-              I am currently working as a freelance developer building sites for
-              small local companies and as a part-time mentor, helping coding
-              bootcamp students at Lighthouse Labs. I am also on the look out
-              for full-time opportunities. Prior to this I developed several
-              apps, some of which I have highlighted in the projects page which
-              you can view <Link to="/projects">here</Link>
+              I am currently developing websites for small local businesses and
+              mentoring bootcampstudents at Lighthouse Labs. I am also on the
+              look out for full-time opportunities. Prior to this I developed
+              several apps, some of which I have highlighted in the projects
+              page which you can view <Link to="/projects">here</Link>
             </p>
 
             <p>
