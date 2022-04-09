@@ -1,10 +1,15 @@
 .stage-cube-cont {
-  width: 30%;
-  height: 100%;
-  padding-top: 20%;
-  position: absolute;
-  right: 0;
-  padding-right: 5%;
+  // width: 30%;
+  // height: 100%;
+  // padding-top: 20%;
+  // position: absolute;
+  // right: 0;
+  // padding-right: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 35%;
+  margin-bottom: 10%;
 }
 
 .cubespinner {

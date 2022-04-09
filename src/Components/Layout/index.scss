@@ -3,17 +3,18 @@
 }
 
 .page {
-  width: 65%;
+  width: 95%;
   height: 100%;
   position: absolute;
   display: flex;
-  flex-direction: column;
+  // flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .top-tags {
   bottom: auto;
-  top: 35px;
+  top: 5px;
 }
 
 .tags {
@@ -24,10 +25,14 @@
   left: 10%;
   font-size: 18px;
   font-family: "La Belle Aurore";
+  margin-left: -3%;
+}
+.top-tag-html {
+  margin-left: -40%;
 }
 
 .bottom-tag-html {
-  margin-left: -20px;
+  margin-left: -40%;
 }
 
 .container {
@@ -41,26 +46,30 @@
   animation-delay: 1s;
 
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-left: 15%;
+  // flex-direction: column;
+  
+  // justify-content: center;
+  align-items: center;
+  margin-left: 10%;
 }
 
 .about-page,
 .contact-page,
-.projects-page,
-.home-page {
+.projects-page{
   .text-zone {
-    width: 85%;
+    max-width: 85%;
+    overflow-y: scroll;
+    max-height: 90%;
 
     h1 {
       font-size: 52px;
       font-family: "Coolvetica";
       color: #ffd700;
       font-weight: 400;
-      margin-top: 0;
+      margin-left: 15px;
       position: relative;
       margin-bottom: 40px;
+      letter-spacing: 2px;
 
       &::before {
         content: "<h1>";
@@ -68,7 +77,7 @@
         color: #ffd700;
         font-size: 18px;
         position: absolute;
-        margin-top: -20px;
+        // margin-bottom: 115px;
         left: -15px;
         opacity: 0.6;
       }
@@ -79,7 +88,7 @@
         color: #ffd700;
         font-size: 18px;
         position: absolute;
-        margin-top: 80px;
+        margin-top: 60px;
         left: -15px;
         opacity: 0.6;
       }
@@ -124,4 +133,23 @@
       letter-spacing: 2px;
     }
   }
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-track {
+  background-color: #001724;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 15px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #0e0e0e;
+  border-radius: 100vw;
+  border: 2px solid rgb(76, 76, 76);
+}
+
+#projects-header {
+  color: #fff;
 }
