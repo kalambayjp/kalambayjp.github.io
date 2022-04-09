@@ -8,8 +8,8 @@ const Home = () => {
       <div className="container home-page">
         <div className="text-zone">
           <h1>
-            Welcome, <br />
-            I'm Jp Kalambay <br />
+            Hi <br />
+            I'm Jp Kalambay, <br />
             Full-Stack Web Developer
           </h1>
           <h2>JavaScript / HTML / CSS / SQL</h2>
@@ -18,16 +18,16 @@ const Home = () => {
           </Link> */}
           <div className="about-section">
             <p>
-              I am a full-stack developer who is proficient in JavaScript, HTML,
-              CSS, SQL and testing frameworks such as Jest, Mocha and cypress.
+              I am proficient in JavaScript, HTML, CSS, SQL and testing
+              frameworks such as Jest, Mocha and cypress.
             </p>
 
             <p>
               I am currently developing websites for small local businesses and
-              mentoring bootcampstudents at Lighthouse Labs. I am also on the
-              look out for full-time opportunities. Prior to this I developed
-              several apps, some of which I have highlighted in the projects
-              page which you can view <Link to="/projects">here</Link>
+              mentoring bootcamp students at Lighthouse Labs. I am also on the
+              look out for full-time opportunities. I've worked on several apps,
+              some of which you can checkout on my{" "}
+              <Link to="/projects">projects page</Link>.
             </p>
 
             <p>
