@@ -2,7 +2,7 @@
   "name": "portfolio-page",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kalambayjp.github.io",
+  "homepage": "https://kalambayjp.github.io/",
   "dependencies": {
     "@emailjs/browser": "^3.5.0",
     "@fortawesome/free-brands-svg-icons": "^6.1.1",
