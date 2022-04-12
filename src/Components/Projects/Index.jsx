@@ -23,7 +23,7 @@ const Projects = () => {
       description:
         "A memorization game where a button sequence is displayed and the user must duplicate the sequence without error. Built with HTML, ReactJS, CSS",
       codeLink: "https://github.com/kalambayjp/Felix-Says",
-      projectLink: "TBD",
+      projectLink: "https://kalambayjp.github.io/Felix-Says/",
     },
     {
       name: "CondoFlex",
