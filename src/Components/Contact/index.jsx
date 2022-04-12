@@ -31,7 +31,7 @@ const Contact = () => {
     <>
       <div className="container contact-page">
         <div className="text-zone">
-          <h1>Contact Me</h1>
+          <h1>Contact</h1>
           <p>
             You can reach me through{" "}
             <a

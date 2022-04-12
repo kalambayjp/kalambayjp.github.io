@@ -11,13 +11,13 @@ const Layout = () => {
         <span className="tags top-tags">
           <span className="top-tag-html">&lt;html&gt;</span>
           <br />
-          <span>&lt;body&gt;</span>
+          <span className="top-tag-body">&lt;body&gt;</span>
         </span>
         <Outlet />
         <span className="tags bottom-tags">
-          &lt;/body&gt;
-          <br />
           <span className="bottom-tag-html">&lt;/html&gt;</span>
+          <br />
+          <span className="bottom-tag-body">&lt;/body&gt;</span>
         </span>
       </div>
     </div>

@@ -18,15 +18,15 @@ const Home = () => {
           </Link> */}
           <div className="about-section">
             <p>
-              I am proficient in JavaScript, HTML, CSS, SQL and testing
-              frameworks such as Jest, Mocha and cypress.
+              Proficient in JavaScript, HTML, CSS, SQL and testing frameworks
+              such as Jest, Mocha and cypress.
             </p>
 
             <p>
-              I am currently developing websites for small local businesses and
-              mentoring bootcamp students at Lighthouse Labs. I am also on the
-              look out for full-time opportunities. I've worked on several apps,
-              some of which you can checkout on my{" "}
+              I currently develop websites for small businesses and mentor
+              bootcamp students at Lighthouse Labs. I am also on the look out
+              for full-time opportunities. I've worked on several apps, some of
+              which you can checkout on my{" "}
               <Link to="/projects">projects page</Link>.
             </p>
 
