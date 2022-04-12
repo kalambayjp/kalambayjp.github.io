@@ -1,5 +1,6 @@
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import linkInPhoto from "../../assets/images/linkInPhoto.png";
 import "./index.scss";
 
 const Contact = () => {
@@ -31,7 +32,10 @@ const Contact = () => {
     <>
       <div className="container contact-page">
         <div className="text-zone">
-          <h1>Contact</h1>
+          <div className="contact-header">
+            <h1>Contact</h1>
+            <img src={linkInPhoto} alt="profile" />
+          </div>
           <p>
             You can reach me through{" "}
             <a
