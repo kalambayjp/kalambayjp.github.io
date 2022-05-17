@@ -11,13 +11,13 @@ const Projects = () => {
       codeLink: "https://github.com/kalambayjp/midterm_marketplace",
       projectLink: null,
     },
-    // {
-    //   name: "NBA Player Tracker",
-    //   description:
-    //     "An NBA tracker where a user selects their favourite players and get updates on live player stats",
-    //   codeLink: "TBD",
-    //   projectLink: "TBD",
-    // },
+    {
+      name: "NBA Tracker",
+      description:
+        "This app allows users to save NBA players and teams to their profile and keep up with season stats as well as view trends for up to the last 10 games.",
+      codeLink: "https://github.com/kalambayjp/nba-stat-tracker",
+      projectLink: null,
+    },
     {
       name: "Felix Says",
       description:
