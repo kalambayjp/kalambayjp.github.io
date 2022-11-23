@@ -43,7 +43,7 @@ const Contact = () => {
               rel="noreferrer"
               href="https://www.linkedin.com/in/jp-kalambay-6294171b7/"
             >
-              LinkedIn
+              LinkedIn 
             </a>
              or by email using the form below.
           </p>
