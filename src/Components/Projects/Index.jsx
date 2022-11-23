@@ -5,6 +5,12 @@ import "./index.scss";
 const Projects = () => {
   const myProjects = [
     {
+      name: "When & Where",
+      description:
+        "Advertisment platform on mobile for companies to promote specific deals that can be redeemed via qr code by users. Built using Dart, Firebase and Firestore",
+      codeLink: "https://github.com/kalambayjp/midterm_marketplace",
+      projectLink: null,
+    },{
       name: "Tech Market",
       description:
         "A buy & sell platform where perspective buyers have the ability to message sellers through the app! Built using EJS, JS, CSS. jQuery, PostgreSQL.",

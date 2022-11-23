@@ -5,17 +5,16 @@ const About = () => {
       <div className="text-zone">
         <h1>About Me</h1>
         <p>
-          I am a full-stack developer who is proficient in JavaScript, HTML,
+          I am a full-stack developer who is proficient in JavaScript, C#, Dart, HTML,
           CSS, SQL and testing frameworks such as Jest, Mocha and cypress.
         </p>
 
         <p>
-          I am currently working as a freelance developer building sites for
-          small local companies and as a part-time mentor, helping coding
-          bootcamp students at Lighthouse Labs. I am also on the look out for
+          I am currently working as a freelance developer, building sites for
+          local companies. I am also on the look out for
           full-time opportunities. Prior to this I developed several apps, some
           of which I have highlighted in the projects page which you can view{" "}
-          <Link to="/projects">here</Link>
+          <Link to="/projects">here</Link> and designed and built the the first module of an educational VR game!
         </p>
 
         <p>
