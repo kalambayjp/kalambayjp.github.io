@@ -45,7 +45,7 @@ const Contact = () => {
             >
               LinkedIn
             </a>
-            or by email using the form below.
+             or by email using the form below.
           </p>
           <div className="contact-form">
             <form ref={refForm} onSubmit={sendEmail}>
