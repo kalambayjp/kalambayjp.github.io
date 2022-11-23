@@ -37,7 +37,7 @@ const Contact = () => {
             <img src={linkInPhoto} alt="profile" />
           </div>
           <p>
-            You can reach me via{" "}
+            You can reach me via{"  "}
             <a
               target="_blank"
               rel="noreferrer"
