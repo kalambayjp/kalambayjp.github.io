@@ -9,7 +9,7 @@ import "./App.scss";
 function App() {
   return (
     <>
-      <Routes basename = "/kalambayjp.github.io">
+      <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="/about" element={<About />} />
