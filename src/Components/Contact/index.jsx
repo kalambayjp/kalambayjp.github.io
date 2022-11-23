@@ -37,14 +37,14 @@ const Contact = () => {
             <img src={linkInPhoto} alt="profile" />
           </div>
           <p>
-            You can reach me through{" "}
+            You can reach me via{" "}
             <a
               target="_blank"
               rel="noreferrer"
               href="https://www.linkedin.com/in/jp-kalambay-6294171b7/"
             >
               LinkedIn 
-            </a>
+             </a>
              or by email using the form below.
           </p>
           <div className="contact-form">
