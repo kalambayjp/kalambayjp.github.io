@@ -20,7 +20,7 @@ const Home = () => {
         </p>
 
         <p>
-          I currently working as a freelance developer, building sites for
+          I currently work as a freelance developer, building sites for
           local companies. I am also on the look out for
           full-time opportunities. Prior to this I developed several apps, some
           of which I have highlighted in the projects page which you can view{" "}
@@ -28,7 +28,7 @@ const Home = () => {
         </p>
 
         <p>
-          Outside coding my interests include exercise and nutrition, sports and
+          Outside coding, my interests include exercise and nutrition, sports and
           aviation.
         </p>
           </div>
